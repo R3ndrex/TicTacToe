@@ -15,5 +15,5 @@ git clone <repository-url>
 3. Navigate to the cloned project folder and select the root folder (the one containing the Assets, Packages, and ProjectSettings folders).
 4. Unity will start importing the project. This may take a few minutes depending on the size of the project.
 
-
+## Preview
 ![undefined - Imgur](https://github.com/R3ndrex/TicTacToe/assets/127026383/aefe465a-49d2-4f96-9a7e-7db638fccf3d)
