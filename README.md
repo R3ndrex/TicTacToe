@@ -7,7 +7,7 @@ cd path/to/your/directory
 ```
 Clone the repository. Use the following command to clone the repository:
 ```
-git clone [<repository-url>](https://github.com/R3ndrex/TicTacToe.git)
+git clone https://github.com/R3ndrex/TicTacToe.git
 ```
 ### 2. Open the Project in Unity Hub
 1. Launch Unity Hub.
