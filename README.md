@@ -12,8 +12,10 @@ git clone https://github.com/R3ndrex/TicTacToe.git
 ### 2. Open the Project in Unity Hub
 1. Launch Unity Hub.
 2. Click on the 'Open' button (or ‘Open Project’).
-3. Navigate to the cloned project folder and select the root folder (the one containing the Assets, Packages, and ProjectSettings folders).
-4. Unity will start importing the project. This may take a few minutes depending on the size of the project.
+![Opening Project](https://i.imgur.com/nq69DFb.png?raw=true)
+4. Navigate to the cloned project folder and select the root folder (the one containing the Assets, Packages, and ProjectSettings folders).
+![Opening folder](https://i.imgur.com/gEeMJi3.png?raw=true)
+6. Unity will start importing the project. This may take a few minutes depending on the size of the project.
 ### 3. Build & Run the Project
 Once the project is successfully loaded:
 1. Go to File > Build Settings.
