@@ -1,4 +1,6 @@
 # Tic Tac Toe in Unity
+The "Tic Tac Toe +" game software system is designed to implement the classic "Tic Tac Toe" game on a personal computer. The game allows users to play against each other on the same computer or against the computer with various difficulty levels. It provides a user-friendly interface for gameplay and the option to choose the size of the game board. The application area of this software system includes entertainment and leisure for users.
+
 ## Installation Steps
 ### 1. Clone the Repository
 Open your terminal (or Git Bash) and navigate to a folder where you want the project to be cloned.
