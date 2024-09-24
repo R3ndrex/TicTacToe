@@ -19,9 +19,10 @@ public class MainMenu : BaseMenu
     }
     private void LoadSavedAudioSettings()
     {
-        mainAudioMixer.SetFloat(MASTER_VOLUME_PARAM, PlayerPrefs.GetFloat(MASTER_VOLUME_PARAM));
-        mainAudioMixer.SetFloat(SFX_VOLUME_PARAM, PlayerPrefs.GetFloat(SFX_VOLUME_PARAM));
-        mainAudioMixer.SetFloat(MUSIC_VOLUME_PARAM, PlayerPrefs.GetFloat(MUSIC_VOLUME_PARAM));
+
+        mainAudioMixer.SetFloat(MASTER_VOLUME_PARAM, Mathf.Log10(PlayerPrefs.GetFloat(MASTER_VOLUME_PARAM))*20);
+        mainAudioMixer.SetFloat(SFX_VOLUME_PARAM, Mathf.Log10(PlayerPrefs.GetFloat(SFX_VOLUME_PARAM))*20);
+        mainAudioMixer.SetFloat(MUSIC_VOLUME_PARAM, Mathf.Log10(PlayerPrefs.GetFloat(MUSIC_VOLUME_PARAM)) * 20);
     }
 
     public void PlayGame() => PlaySoundAndLoadScene("ModeSelection");

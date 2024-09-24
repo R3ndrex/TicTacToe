@@ -18,7 +18,6 @@ public class ComputerScreenGameManager : BaseGameManager
     private bool isFirstTurn = true;
     private const string DIFFICULTY_KEY = "Difficulty";
     private const string HARDMODE_KEY = "Hard";
-    private char[] board;
 
     private void Awake()
     {
@@ -33,7 +32,6 @@ public class ComputerScreenGameManager : BaseGameManager
             WinPatterns = GetWinPatterns(buttonImages);
             SetControllerOnButtons(buttonImages);
             SetDefault();
-            board = new char[buttonImages.Length];
         }
         catch(Exception ex)
         { 
@@ -130,6 +128,7 @@ public class ComputerScreenGameManager : BaseGameManager
     }
     private void ComputerTurn()
     {
+        char[] board = new char[buttonImages.Length];
         if (PlayerPrefs.GetString(DIFFICULTY_KEY) == HARDMODE_KEY)
         {
             for (int i = 0; i < buttonImages.Length; i++)

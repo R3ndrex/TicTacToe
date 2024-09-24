@@ -23,7 +23,8 @@ public class VolumeSlidersChange : MonoBehaviour
 
     public void SetVolume(string volumeName, Slider slider)
     {
-        mainAudioMixer.SetFloat(volumeName,slider.value);
+        float volumeInDb = Mathf.Log10(slider.value) * 20;
+        mainAudioMixer.SetFloat(volumeName, volumeInDb);
         PlayerPrefs.SetFloat(volumeName, slider.value);
         PlayerPrefs.Save();
     }
