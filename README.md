@@ -19,7 +19,7 @@ Once the project is successfully loaded:
 1. Go to File > Build Settings.
 2. Choose the target platform (PC, Android, etc.).
 3. Click Build and Run to test the project.
-[Build](https://i.imgur.com/MtLPOaJ.png?raw=true)
+![Build](https://i.imgur.com/MtLPOaJ.png?raw=true)
 
 ## Preview
 ![undefined - Imgur](https://github.com/R3ndrex/TicTacToe/assets/127026383/aefe465a-49d2-4f96-9a7e-7db638fccf3d)
