@@ -19,6 +19,7 @@ Once the project is successfully loaded:
 1. Go to File > Build Settings.
 2. Choose the target platform (PC, Android, etc.).
 3. Click Build and Run to test the project.
+
 ![Build](https://i.imgur.com/MtLPOaJ.png?raw=true)
 
 ## Preview
