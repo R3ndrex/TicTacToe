@@ -14,6 +14,12 @@ git clone https://github.com/R3ndrex/TicTacToe.git
 2. Click on the 'Open' button (or ‘Open Project’).
 3. Navigate to the cloned project folder and select the root folder (the one containing the Assets, Packages, and ProjectSettings folders).
 4. Unity will start importing the project. This may take a few minutes depending on the size of the project.
+### 3. Build & Run the Project
+Once the project is successfully loaded:
+1. Go to File > Build Settings.
+2. Choose the target platform (PC, Android, etc.).
+3. Click Build and Run to test the project.
+[Build](https://i.imgur.com/MtLPOaJ.png?raw=true)
 
 ## Preview
 ![undefined - Imgur](https://github.com/R3ndrex/TicTacToe/assets/127026383/aefe465a-49d2-4f96-9a7e-7db638fccf3d)
